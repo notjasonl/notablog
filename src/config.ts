@@ -1,13 +1,12 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/",
-  author: "Sat Naing",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  website: "https://notjaso.nl",
+  author: "Jason Liu",
+  desc: "A personal blog/portfolio/about page",
   title: "notjaso.nl",
-  ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 5,
 };
 
 export const LOCALE = ["en-EN"]; // set to [] to use the environment default
@@ -31,11 +30,5 @@ export const SOCIALS: SocialObjects = [
     href: "https://linkedin.com/in/notjasonl",
     linkTitle: `LinkedIn`,
     active: true,
-  },
-  {
-    name: "Mail",
-    href: "mailto:yourmail@gmail.com",
-    linkTitle: `Email`,
-    active: false,
   },
 ];
