@@ -41,8 +41,16 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        Currently a work in progress, future blog/portfolio/about site to come!
+        I'm currently a CS Student at Maryland, formerly intern at <LinkButton href="https://blitz.gg">Blitz</LinkButton>, working on lots of things, mostly centering around frontend dev.
       </p>
+
+      <!-- <p>
+        I'm passionate about a pretty broad subset of CS / SWE concepts, and I plan to juggle some projects / posts about things I find neat sometime in the future.
+      </p> -->
+
+      <!-- <p>
+        Outside of that, however, I'm a fan of Factorio-esque automation games, effective public transit systems, aviation, travel, and keyboards.
+      </p> -->
       <!-- <p>
         Read the blog posts or check
         <LinkButton
@@ -52,7 +60,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           README
         </LinkButton> for more info.
       </p> -->
-      {
+      <!-- {
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
@@ -60,7 +68,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             <Socials />
           </div>
         )
-      }
+      } -->
     </section>
 
     <Hr />
@@ -123,7 +131,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     @apply pb-6 pt-8;
   }
   #hero h1 {
-    @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
+    @apply my-4 inline-block text-lg font-bold sm:my-8 sm:text-5xl;
   }
   #hero .rss-link {
     @apply mb-6;
